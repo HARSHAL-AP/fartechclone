@@ -1,0 +1,115 @@
+#heading1 {
+  height: 95px;
+  width: 95%;
+  margin: auto;
+
+  text-align: center;
+}
+#heading1 > p {
+  padding-top: 20px;
+  font-size: 30px;
+  color: #343333;
+}
+#pagedirect {
+  height: 235px;
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+#pagedirect > div > img {
+  width: 100%;
+  height: auto;
+}
+#pagedirect > div {
+  position: relative;
+  cursor: pointer;
+}
+#pagedirect > div > div {
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  position: absolute;
+  color: #fff;
+  top: 40%;
+}
+.pageselections {
+  height: 230px;
+  width: 95%;
+  margin: auto;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  background-color: rgb(253, 253, 253);
+}
+.pageselections > div {
+  background-color: #ffffff;
+}
+.pageselections > div > p {
+  font-size: 22px;
+  font-weight: lighter;
+}
+.pageselections > div > button {
+  height: 50px;
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 0px;
+  border-bottom: 0.3px solid rgb(220, 218, 218);
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.pageselections > div > button > span {
+  font-weight: bold;
+}
+#fqs {
+  height: 150px;
+  width: 95%;
+  margin: auto;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+.fghj {
+  padding-left: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.fghj:hover {
+  padding-left: 20px;
+  cursor: pointer;
+  background-color: #ebe7e78b;
+}
+.ico {
+  margin-top: 25px;
+}
+.headd {
+  margin-top: 12px;
+}
+.explen {
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+#bottom {
+  height: 50px;
+  width: 100%;
+  background-color: #222222;
+  color: #fff;
+}
+#bottom > div {
+  height: 30%;
+  width: 95%;
+  margin: auto;
+}
+#bottom > div > p {
+  font-size: 13px;
+}
